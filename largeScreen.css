@@ -332,9 +332,6 @@
 
 .orderPanel{
    width: 25%;
-   height: 75%;
-   position: fixed;
-   left: 75%;
 }
 
 .ordersTop{
@@ -368,7 +365,6 @@
 
 .orders{
    position: relative;
-   height: 100%;
    display: flex;
    justify-content: top;
    align-items: center;
@@ -515,13 +511,14 @@
    font-size: 18px;
    font-family: sans-serif;
    color: rgb(224, 142, 40);
-   font-weight: 200;
+   font-weight: 200; 
    text-align: center;
    background-color: white;
    border: 1px solid rgb(161, 161, 161);
 }
 
 .confirmationOfPurchase{
+   position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -692,15 +689,6 @@
 
    .orderPanel{
       width: 35%;
-      left: 65%;
-   }
-
-   .ordersTop{
-      width: 40%;
-   }
-
-   .orders{
-      width: 100%;
    }
 
    .pizzas{
@@ -800,15 +788,6 @@
 
    .orderPanel{
       width: 45%;
-      left: 55%;
-   }
-
-   .ordersTop{
-      width: 40%;
-   }
-
-   .orders{
-      width: 100%;
    }
 
    .pizzas{
@@ -930,11 +909,6 @@
 
    .orderPanel{
       width: 45%;
-      left: 55%;
-   }
-
-   .orders{
-      width: 100%;
    }
 
    .pizzas{
