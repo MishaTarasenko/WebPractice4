@@ -331,7 +331,10 @@
 }
 
 .orderPanel{
+   position: fixed;
+   height: 100%;
    width: 25%;
+   left: 75%;
 }
 
 .ordersTop{
@@ -364,11 +367,13 @@
 }
 
 .orders{
-   position: relative;
+   height: 80%;
+   z-index: 1;
    display: flex;
    justify-content: top;
    align-items: center;
    flex-direction: column;
+   overflow-y:auto;
    background-color: rgb(245, 245, 245);
 }
 
@@ -518,7 +523,12 @@
 }
 
 .confirmationOfPurchase{
-   position: relative;
+   position: fixed;
+   height: 10%;
+   width: 25%;
+   left: 75%;
+   bottom: -1px;
+   z-index: -1;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -689,6 +699,11 @@
 
    .orderPanel{
       width: 35%;
+      left: 65%;
+   }
+
+   .orders{
+      height: 75%;
    }
 
    .pizzas{
@@ -756,6 +771,11 @@
       display: flex;
       font-size: 15px;
    }
+
+   .confirmationOfPurchase{
+      width: 35%;
+      left: 65%;
+   }
    
  }
 
@@ -788,6 +808,11 @@
 
    .orderPanel{
       width: 45%;
+      left: 55%;
+   }
+
+   .orders{
+      height: 75%;
    }
 
    .pizzas{
@@ -859,6 +884,12 @@
       display: flex;
       font-size: 15px;
    }
+
+   .confirmationOfPurchase{
+      width: 45%;
+      height: 14%;
+      left: 55%;
+   }
    
  }
 
@@ -909,6 +940,11 @@
 
    .orderPanel{
       width: 45%;
+      left: 55%;
+   }
+
+   .orders{
+      height: 75%;
    }
 
    .pizzas{
@@ -997,5 +1033,11 @@
    .discountText{
       width: 75px;
       font-size: 14px;
+   }
+
+   .confirmationOfPurchase{
+      width: 45%;
+      height: 14%;
+      left: 55%;
    }
  }
