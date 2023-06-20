@@ -950,7 +950,7 @@
    
  }
 
- @media (min-width: 390px) and (max-width: 550px) {
+ @media (min-width: 370px) and (max-width: 550px) {
 
    .mainScreen{
       width: 55%;
@@ -1112,177 +1112,23 @@
    }
  }
 
- @media (max-width: 390px) {
-
+ @media (max-width: 370px) {
    .body{
       flex-direction: column;
    }
-
    .mainScreen{
-      width: 55%;
+      width: 100%;
    }
-
    .top{
-      width: 55%;
+      width: 100%;
    }
-
-   .information{
-      margin-left: 86px;
-   }
-
-   .pizzaKmaLabel{
-      width: 75px;
-   }
-
-   .informationLine{
-      height: 100%;
-      margin: 0px;
-      border-bottom: none;
-      flex-direction: column;
-   }
-
-   .informationLine.menu{
-      display: none;
-   }
-
-   .selectButtonGroup{
-      width: 95%;
-      flex-direction: none;
-      display: grid;
-      grid-template-columns: 1fr;
-      margin: 5px;
-   }
-
-   .selectButton{
-      margin: 2px;
-   }
-
-   .selectButtonText{
-      font-size: 12px;
-   }
-
    .orderPanel{
-      position: unset;
+     position: static;
+     width: 100%;
    }
-
-   .orders{
-      height: 75%;
-   }
-
-   .pizzas{
-      margin-left: 1%;
-      margin-right: 1%;
-   }
-
-   .informationText{
-      font-family: sans-serif;
-      color: rgb(161, 161, 161);
-      font-size: 14px;
-      margin: 8px;
-   }
-
-   .enterenceButton{
-      width: 60%
-   }
-   
-   .buttonExitText{
-      font-size: 14px;
-   }
-
-   .plusButton{
-      width: 18px;
-      line-height: 14px;
-      border-radius: 20px;
-      font-size: 14px;
-   }
-
-   .minusButton{
-      width: 18px;
-      line-height: 14px;
-      border-radius: 20px;
-      font-size: 14px;
-   }
-
-   .cancelButton{
-      width: 20px;
-      line-height: 16px;
-      border-radius: 20px;
-      font-size: 14px;
-   }
-
-   .informationText.delivery{
-      display: none;
-   }
-
-   .informationText.time{
-      display: none;
-   }
-
-   .orderPizzaName{
-      font-size: 16px;
-   }
-
-   .amountText{
-      font-size: 12px;
-   }
-
-   .orderPrice{
-      font-size: 12px;
-   }
-
-   .pizzas{
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-   }
-
-   .pizzaName{
-      font-size: 22px;
-   }
-
-   .descriptionText{
-      display: flex;
-      font-size: 15px;
-   }
-
-   .ordersTop{
-      justify-content: center;
-      flex-direction: column;
-   }
-
-   .discountLabel{
-      width: 75px;
-   }
-
-   .discountText{
-      width: 75px;
-      font-size: 14px;
-   }
-
    .confirmationOfPurchase{
-      width: 45%;
-      height: 14%;
-      left: 55%;
-   }
-
-   .label.popular{
-      left: 65%;
-      width: 35%;
-   }
-
-   .labelText{
-      font-family: sans-serif;
-      color: white;
-      font-size: 12px;
-      font-weight: 600;
-      margin: 2%;
-   }
- }
-
- @media (min-height: 400px) and (max-height: 560px) {
-   .confirmationOfPurchase{
-      height: 20%;
-   }
-   .orders{
-      height:65%;
+      position: static;
+      width: 100%;
    }
  }
 
